@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[SkillRary Courses]]>
+    </line>
+    <line>
+      <![CDATA[SkillRary | Bangalore]]>
+    </line>
+    <line>
+      <![CDATA[X]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-02-18T11:29:50 IST" name="Suite" finished-at="2024-02-18T11:31:54 IST" duration-ms="124631">
+    <groups>
+    </groups>
+    <test started-at="2024-02-18T11:29:50 IST" name="Test" finished-at="2024-02-18T11:31:54 IST" duration-ms="124631">
+      <class name="testscripts.tc5">
+        <test-method is-config="true" signature="openApp()[pri:0, instance:testscripts.tc5@2c1b194a]" started-at="2024-02-18T11:30:15 IST" name="openApp" finished-at="2024-02-18T11:30:17 IST" duration-ms="1766" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method signature="tc5()[pri:0, instance:testscripts.tc5@2c1b194a]" started-at="2024-02-18T11:30:17 IST" name="tc5" finished-at="2024-02-18T11:30:55 IST" duration-ms="37767" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[SkillRary | Bangalore]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tc5 -->
+        <test-method is-config="true" signature="CloseApp(org.testng.ITestResult)[pri:0, instance:testscripts.tc5@2c1b194a]" started-at="2024-02-18T11:30:55 IST" name="CloseApp" finished-at="2024-02-18T11:30:55 IST" duration-ms="427" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc5 status=SUCCESS method=tc5.tc5()[pri:0, instance:testscripts.tc5@2c1b194a] output=SkillRary | Bangalore]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseApp -->
+      </class> <!-- testscripts.tc5 -->
+      <class name="testscripts.tc6">
+        <test-method is-config="true" signature="openApp()[pri:0, instance:testscripts.tc6@4dbb42b7]" started-at="2024-02-18T11:30:55 IST" name="openApp" finished-at="2024-02-18T11:30:58 IST" duration-ms="2889" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method signature="tc6()[pri:0, instance:testscripts.tc6@4dbb42b7]" started-at="2024-02-18T11:30:58 IST" name="tc6" finished-at="2024-02-18T11:31:54 IST" duration-ms="55662" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[X]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tc6 -->
+        <test-method is-config="true" signature="CloseApp(org.testng.ITestResult)[pri:0, instance:testscripts.tc6@4dbb42b7]" started-at="2024-02-18T11:31:54 IST" name="CloseApp" finished-at="2024-02-18T11:31:54 IST" duration-ms="317" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc6 status=SUCCESS method=tc6.tc6()[pri:0, instance:testscripts.tc6@4dbb42b7] output=X]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseApp -->
+      </class> <!-- testscripts.tc6 -->
+      <class name="testscripts.tc4">
+        <test-method is-config="true" signature="openApp()[pri:0, instance:testscripts.tc4@7205765b]" started-at="2024-02-18T11:29:50 IST" name="openApp" finished-at="2024-02-18T11:29:54 IST" duration-ms="4842" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method signature="test_tc4()[pri:0, instance:testscripts.tc4@7205765b]" started-at="2024-02-18T11:29:54 IST" name="test_tc4" finished-at="2024-02-18T11:30:15 IST" duration-ms="20561" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[SkillRary Courses]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test_tc4 -->
+        <test-method is-config="true" signature="CloseApp(org.testng.ITestResult)[pri:0, instance:testscripts.tc4@7205765b]" started-at="2024-02-18T11:30:15 IST" name="CloseApp" finished-at="2024-02-18T11:30:15 IST" duration-ms="335" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test_tc4 status=SUCCESS method=tc4.test_tc4()[pri:0, instance:testscripts.tc4@7205765b] output=SkillRary Courses]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseApp -->
+      </class> <!-- testscripts.tc4 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
